@@ -3,26 +3,34 @@
 **Normalization**
  * Program Name: normalize_tif.py
  * Overview:
+ 
     Normalize the surface using the 100 grayscale cards
-    Input: 32 bit TIFF images
+    
+    ```Input```: 32 bit TIFF images
+    
         - format (n: number)
-            + n_square.tif: testing surface
-            + n_left.tif: left half of the grayscale cards
-            + n_right.tif: right half of the grayscale cards
+            1. n_square.tif: testing surface
+            2. n_left.tif: left half of the grayscale cards
+            3. n_right.tif: right half of the grayscale cards
              
-    Output: normalized greyscale value of each surface
+    ```Output```: normalized greyscale value of each surface
         0: all black; 100: all white
  * Instruction: 
-    Put the test_images in the same folder
-    (currently running over ten test images)
-    Add more images following the input format and update the n_file variables in the program
-    Debugging: print and imshow for debuggin
+ 
+        Put the test_images in the same folder
+        (currently running over ten test images)
+        Add more images following the input format and update the n_file variables in the program
+        Debugging: print and imshow for debuggin
+        
 * Normalization Algorithm Overview:
-    The grayscale value is normalized over the set of 100 cards. 
-        Top left of the left half = 100 
-        Right bottom  = 0
-    Perform a linear fit and normalize the surface with the linear function
-    Variance is calculated using numpy.var(arr).
+    
+        The grayscale value is normalized over the set of 100 cards. 
+            Top left of the left half = 100 
+            Right bottom  = 0
+
+        Perform a linear fit and normalize the surface with the linear function
+
+        Variance is calculated using numpy.var(arr).
     
     ![plot](https://github.com/cniii/Passive-Sampler/blob/master/normalize_sample_plot.png)
    
