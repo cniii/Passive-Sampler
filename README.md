@@ -6,4 +6,4 @@ Image processing algorithm for the ultra-low cost passive sampler for air pollut
 ## Documentations:
 * normalization the tiff images: 
 
-     [Doc for normalize_tif](Passive-Sampler/Normalizatoin_README.md)
+     [Doc for normalize_tif](https://github.com/cniii/Passive-Sampler/blob/master/Normalizatoin_README.md)
