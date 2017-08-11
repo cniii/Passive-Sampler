@@ -24,9 +24,11 @@
     Perform a linear fit and normalize the surface with the linear function
     Variance is calculated using numpy.var(arr).
     
-    ![plot]
-    (https://github.com/cniii/Passive-Sampler/blob/master/normalize_sample_plot.png)
-    
+    ![plot](https://github.com/cniii/Passive-Sampler/blob/master/normalize_sample_plot.png)
+   
+    - green dots represents the grayscale card value distribution
+    - blue line: linear fit using the grayscale crad
+    - red dot: normalized value of the surface
 * Sample Output:
 ```
     Before normalized:[ 54273.42140471  54058.35790876  53742.35974447 54213.20244741 54095.79387108  54237.24743609  54200.52404824 54086.53051569 54327.61574371  54288.37671013]
