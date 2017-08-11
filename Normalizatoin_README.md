@@ -24,7 +24,8 @@
     Perform a linear fit and normalize the surface with the linear function
     Variance is calculated using numpy.var(arr).
     
-    [plot]: https://github.com/cniii/Passive-Sampler/blob/master/normalize_sample_plot.png "sample plot"
+    ![plot]
+    (https://github.com/cniii/Passive-Sampler/blob/master/normalize_sample_plot.png)
     
 * Sample Output:
 ```
