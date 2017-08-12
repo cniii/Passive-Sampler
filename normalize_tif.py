@@ -81,5 +81,5 @@ for j in range(n_file):
     normalized_value[j, ] = normalized_point
 print("Before normalized:" + str(points));
 print("before variance:" + str(np.var(points)))
-print("After normalized:" + str(normalized_value))
-print("aftervariance:" + str(np.var(normalized_value)))
+print("After normalized: " + str(normalized_value))
+print("aftervariance: " + str(np.var(normalized_value)))
