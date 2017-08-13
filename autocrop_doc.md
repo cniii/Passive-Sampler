@@ -1,5 +1,5 @@
 # Autocrop
-The autocrop.py program takes jpeg images and automcatically trim the border.
+The autocrop.py program takes jpeg images and automcatically trims the border.
 
 A pair of sample input and output would be:
 
